@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+
+ul {
+	
+	width: 100%;
+	border: 1px solid black;
+	margin: 20px auto;
+	
+	
+	
+}
+
+ul li {
+	list-style:none;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid yellow;
+	
+}
+
+article {
+
+	width: 100%;
+	
+}
+article img {
+	width: 100%;
+	height: auto;
+	
+}
+
+article p {
+	text-align: center;
+	
+}
+
+.boton {
+	width: 100%;
+	margin-top : 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+ cursor: pointer;
+ background-color:  lightblue;
+ width: 80px;
+ height: 30px;
+
+ 
+	
+}
+
+li a {
+	text-decoration: none;
+	
+}
+
+
+
+@media (min-width: 420px) {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		/*overflow: hidden;*/
+	}
+	ul li {
+		width: 50%;
+		/*float: left;*/
+		flex-grow: 1;
+		
+		
+	}
+	
+	
+	
+	section {
+		/*overflow: hidden;*/
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+	
+	
+	
+	article {
+	width: 50%;
+	/*float: left;*/
+	
+}
+	
+}
+
+@media (min-width: 1000px) {
+	ul li {
+		width: 25%;
+		 /*float: left;*/
+		 
+	
+		
+	}
+	ul {
+		display: flex;
+		justify-content: space-between;
+		/*overflow: hidden;*/
+	}
+	
+	section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+	
+	article {
+		width: 25%;
+	}
+	
+	
+}
+
